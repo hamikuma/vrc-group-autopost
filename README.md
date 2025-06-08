@@ -14,10 +14,10 @@
 ---
 
 ## 📌 使い方
-
-1. **`save_session.exe` を実行してVRChatにログインし、`session.json` を作成**
-2. **`config.json` を編集して投稿内容を設定**
-3. **`autopost.py` を実行 → VRChat Groupに投稿されます！**
+1. **`vrc-group-autopost-v*.*.zip` をダウンロードし、解凍。→最新版(https://github.com/hamikuma/vrc-group-autopost/releases/latest)**
+2. **`save_session.exe` を実行してVRChatにログインし、`session.json` を作成**
+3. **`config.json` を編集して投稿内容を設定**
+4. **`autopost.py` を実行 → VRChat Groupに投稿されます！**
 
 ---
 
