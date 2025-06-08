@@ -1,20 +1,21 @@
 # VRChat Group AutoPost
 
-このスクリプトは、**VRChat Group** に自動で投稿を行うツールです。  
+このスクリプトは、VRChatのグループで自動postを行うツールです。  
 ブラウザ操作なしで、定型的な告知やメッセージを簡単に投稿できます🚀
 
 ---
 
 ## 🛠 構成ファイル
 - `config.json` … 投稿内容の設定ファイル
-- `session.json` … VRChatの認証セッション情報（`save_session.py`で作成）
-- `autopost.py` … メインスクリプト（投稿処理）
+- `session.json` … VRChatの認証セッション情報（`save_session.exe`で作成）
+- `save_session.exe` … 事前処理（VRChatにログインしてセッション情報を取得）
+- `autopost.exe` … メイン処理（投稿処理）
 
 ---
 
 ## 📌 使い方
 
-1. **VRChat公式サイトでログイン → `save_session.py` を実行して `session.json` を作成**
+1. **`save_session.exe` を実行してVRChatにログインし、`session.json` を作成**
 2. **`config.json` を編集して投稿内容を設定**
 3. **`autopost.py` を実行 → VRChat Groupに投稿されます！**
 
@@ -24,7 +25,7 @@
 
 | **キー** | **内容** | **備考** |
 |---------|---------|---------|
-| `"group_id"` | 対象GroupのID | 例: `"grp_xxxxxxxxxx"` |
+| `"group_id"` | 対象GroupのID | 例: `"grp_xxxxxxxx-yyyy-zzzz-aaaa-bbbbbbbbbbbb"` |
 | `"title"` | 投稿タイトル | 空欄の場合、実行時に入力を求められます |
 | `"text"` | 投稿本文 | 空欄の場合、実行時に入力を求められます |
 | `"sendNotification"` | 通知を送信するか | `"true"` または `"false"` |
