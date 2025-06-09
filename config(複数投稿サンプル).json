@@ -9,6 +9,13 @@
       "sendNotification": true,
       "visibility": "public",
       "role_names": ""
+    },
+    {
+      "title": "声と歌の雑談集会(スタッフ向け)",
+      "text": "声と歌の雑談集会\nはじまりました。ご準備お願いいたします",
+      "sendNotification": true,
+      "visibility": "group",
+      "role_names": "Group Owner, Member"
     }
   ]
 }
